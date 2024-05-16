@@ -5987,7 +5987,8 @@ textarea.form-control-lg {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  width: 1200px;
+  height: auto;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;

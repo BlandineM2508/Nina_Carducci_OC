@@ -70,7 +70,7 @@ body {
 
 .picture.left img {
 	max-width: 450px;
-	max-height: 450px;
+	height: 450px;
 
 }
 #about-me {
@@ -216,7 +216,7 @@ body {
 
 .picture.right img {
 	width: 374px;
-	height: auto;
+	height: 374px;
 }
 .form-container {
 	flex : 2;
