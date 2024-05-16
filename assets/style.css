@@ -68,9 +68,9 @@ body {
 	z-index: 0;
 }
 
-.picture img {
-	min-width: 450px;
-	min-height: 450px;
+.picture.left img {
+	max-width: 450px;
+	max-height: 450px;
 
 }
 #about-me {
