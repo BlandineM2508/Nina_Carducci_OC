@@ -69,8 +69,8 @@ body {
 }
 
 .picture img {
-	width: 100%;
-	height: auto;
+	width: 450px;
+	height: 450px;
 
 }
 #about-me {
@@ -123,8 +123,8 @@ body {
 }
 .gallery-item {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 440px;
+	height: 440px;
 	object-fit: cover;
 	padding: .5em;
 }
@@ -216,7 +216,7 @@ body {
 
 .picture.right img {
 	width: 374px;
-	height: 329px;
+	height: auto;
 }
 .form-container {
 	flex : 2;
