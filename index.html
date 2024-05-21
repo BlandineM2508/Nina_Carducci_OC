@@ -7,6 +7,23 @@
     <meta name="author" content="Nina Carducci">
     <title>Nina Carducci - Photographe</title>
 
+      <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Nina Carducci - Photographe">
+  <meta property="og:description" content="Découvrez Nina Carducci, une photographe talentueuse spécialisée dans les portraits, mariages, et événements sur Bordeaux.">
+  <meta property="og:url" content="http://www.ninacarducci.com">
+  <meta property="og:image" content="http://www.ninacarducci.com/assets/images/nina.webp">
+  <meta property="og:site_name" content="Nina Carducci Photography">
+  <meta property="og:locale" content="fr_FR">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nina Carducci - Photographe">
+  <meta name="twitter:description" content="Découvrez Nina Carducci, une photographe talentueuse spécialisée dans les portraits, mariages, et événements sur Bordeaux.">
+  <meta name="twitter:image" content="http://www.ninacarducci.com/assets/images/nina.webp">
+  <meta name="twitter:url" content="http://www.ninacarducci.com">
+  <meta name="twitter:site" content="@ninacarducci">
+
     <link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style">
     <link rel="preload" href="./assets/style.css" as="style">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style">
@@ -20,33 +37,53 @@
     <script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script defer src="./assets/maugallery.js"></script>
     <script defer src="./assets/scripts.js"></script>
-
-
-	<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org",
-		  "@type": "Photograph",
-		  "name": "Nina Carducci",
-		  "url": "http://www.ninacarducci.com",
-		  "logo": "http://www.ninacarducci.com/assets/images/logo.png",
-		  "image": "http://www.ninacarducci.com/assets/images/nina.webp",
-		  "description": "Découvrez Nina Carducci, une photographe talentueuse spécialisée dans les portraits, mariages, et événements sur Bordeaux.",
-		  "address": {
-			"@type": "68 avenue Alsace-Lorraine, 33200 Bordeaux",
-			"addressLocality": "Bordeaux",
-			"addressCountry": "France"
-		  },
-		  "contactPoint": {
-			"@type": "ContactPoint",
-			"telephone": "05 56 67 78 89",
-			"contactType": "Customer Service"
-		  },
-		  "sameAs": [
-			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
-		  ],
-		  
-		}
-		</script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Nina Carducci",
+          "url": "http://www.ninacarducci.com",
+          "sameAs": [
+            "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+          ],
+          "jobTitle": "Photographe",
+          "worksFor": {
+            "@type": "LocalBusiness",
+            "name": "Nina Carducci Photographe",
+            "description": "Découvrez Nina Carducci, une photographe talentueuse spécialisée dans les portraits, mariages, et événements sur Bordeaux.",
+            "logo": "http://www.ninacarducci.com/assets/images/logo.png",
+            "image": "http://www.ninacarducci.com/assets/images/nina.webp",
+            "telephone": "+33-5-56-67-78-89",
+            "priceRange": "$$",          
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "68 avenue Alsace-Lorraine",
+              "addressLocality": "Bordeaux",
+              "addressRegion": "Nouvelle-Aquitaine",
+              "postalCode": "33200",
+              "addressCountry": "FR"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Customer Service",
+                "hoursAvailable": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                  ],
+                  "opens": "10:00",
+                  "closes": "19:00"
+                }
+              }
+          }
+        }
+        </script>
+        
+        
 </head>
 <body>
     <header class="top-header">
